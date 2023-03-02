@@ -1,0 +1,146 @@
+
+.create,.update,.read,.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.title{
+  font-size: 50px;
+}
+
+
+.home-link{
+  text-decoration: none;
+  padding: 3px 5px 3px 5px;
+  font-weight: 700;
+  background-color: white;
+  color: black;
+  width: max-content;
+}
+
+.home-link:hover{
+  background-color: #211e56;
+  color: white;
+}
+
+.hm-lnk-btn-left{
+  width: fit-content;
+  
+}
+
+.country-code-container{
+  position: relative;
+  top: 7px;
+}
+
+.country-code-input{
+  width: 100px;
+}
+
+.phone-number-input{
+  width: 157px;
+}
+
+.error{
+  color: red;
+  font-size: 8px;
+  margin-left: 88%;
+}
+
+.dropdown{
+  width: 99px;
+  font-size: 12px;
+  height: 85px;
+  overflow-y: scroll;
+  position: absolute;
+  margin-top: 28px;
+  background-color: #363370;
+  opacity: 0.8;
+}
+
+.dropdown-results{
+  font-size: 8px;
+}
+
+.dropdown-results:hover{
+  background-color: #040136;
+}
+
+.cdrop-down-input{
+  position: relative;
+
+}
+
+.form{
+  min-width: 420px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.form-section{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+label{
+  float: left;
+}
+
+input{
+  float: right;
+  width: 65%;
+}
+
+.submit-btn{
+  background-color: white;
+  color: #0b0a3d;
+  padding: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit-btn:hover{
+  background-color: #211e56;
+  color: white;
+}
+
+.delete{
+  cursor: pointer;
+}
+
+.update{
+  cursor: pointer;
+}
+
+.footer{
+  position: fixed;
+  bottom:-1.3rem;
+  opacity: 0.9;
+  right: 0;
+  background-color: #363370;
+  padding: 5px;
+  width: 100vw;
+}
+
+
+.name{
+  color: whitesmoke;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px;
+  font-size: 18px;
+  
+}
+
+
+
+@media only screen and (max-width: 600px){
+  th,td{
+    font-size: 8px;
+  }
+}
